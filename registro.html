@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>REGISTRO</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/checkout/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+
+
+    
+    <!-- Custom styles for this template -->
+    <link href="./registro.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+<br>
+    
+<div class="container">
+  <main>
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="images/Logo.jpg" alt="" width="72" height="57">
+      <h2>Registrate desde aquí</h2>
+      <p class="lead">Si eres un nuevo usuario puedes resgistrarte desde aqui ingresando tus datos</p>
+    </div>
+    
+    <div class="row">
+     
+      <div class="col">
+        <h4 class="mb-3">Añade la siguiente información:</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Nombre requerido.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Apellido Requerido.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Correo electronico</label>
+              <input type="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com">
+              <div class="invalid-feedback">
+                Ingrese un correo electronico.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Dirección</label>
+              <input type="text" class="form-control" id="address" placeholder="Calle Numero Colonia" required>
+              <div class="invalid-feedback">
+                Ingrese su direccion.
+              </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+              <label for="state" class="form-label">Estado donde vives</label>
+              <select class="form-select" id="state" required>
+                <option value="">Selecciona...</option>
+                <option>Aguascalientes</option>
+                <option>Baja California</option>
+                <option>Baja California Sur</option>
+                <option>Estado de Mexico</option>
+                <option>Leon</option>
+                <option>Otro</option>
+              </select>
+              <div class="invalid-feedback">
+                Seleccione una opción.
+              </div>
+            </div>
+
+            
+          </div>
+
+
+          <hr class="my-4">
+
+          <button class=" w-100 btn btn-primary btn-lg" href="/buy.html" type="submit">Continua para registrarte</button>
+        </form>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p>&copy; 2022–2023 Hotel posada Aguascalientes, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="form-validation.js"></script>
+  </body>
+</html>
